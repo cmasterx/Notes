@@ -22,6 +22,8 @@ It is not recommended to place a pull up resistor on pin **CLK** due to high-spe
 
 It is not recommended to place a pull up resistor on pin **DATA3/CD** due to this pin's internal 10k-50k resistor for its built-in [Card Detection (CD)](#built-in-card-detection-cd) feature. [[source](#references) - refer: _Design Pinout and Schematic_]
 
+Otherwise, pull-up resistor value should be between **10k** and **100k**. [[source](#references) - refer: _NXP Memory Card and MMC Interface_]
+
 ## Built-In Card Detection (CD)
 SD (and MicroSD) cards features a built-in card detection feature to detect if a card is inserted. This feature can be used in-place of a physical/mechanical insertion detection.
 
@@ -32,3 +34,4 @@ To use this feature, a pull down resistor greater than **270k** is required to d
 # References
 - [Design Pinout and Schematic](https://hackaday.io/project/164934-funkey-project-all-your-games-on-your-keychain/log/163628-schematics-sd-card)
 - [Design Considerations](https://www.acmesystems.it/pcb_microsd)
+- [NXP Memory Card and MMC Interface](https://www.mouser.com/catalog/specsheets/an10911.pdf)

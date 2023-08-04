@@ -18,15 +18,15 @@ W_I = W_D + W_R
 $$
 
 $$
-W_D = V_D*I_I
+W_D = V_D \cdot I_I
 $$
 
 $$
-W_R = V_R*I_I
+W_R = V_R \cdot I_I
 $$
 
 $$
-V_R = (V_I-V_D) * R_R
+V_R = (V_I-V_D) \cdot R_R
 $$
 
 where:

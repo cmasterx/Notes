@@ -57,6 +57,7 @@ $$
 where $V_Z$ is the breakdown voltage of the Zenner diode.
 
 Thus, the voltage difference on the inductor while there is sufficient energy within the inductor, $V_I$ is:
+
 $$
 V_I = V_Z + V_D
 $$

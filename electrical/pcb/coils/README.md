@@ -12,15 +12,19 @@ A flyback diode placed in parallel and reverse polarity to the inductor protects
 
 ### Series Resistor with Flyback Diode
 Placing a resistor in series to the flyback diode allows a higher voltage difference between the two ends of an inductor during the _off_ state. The flyback diode will still induce a forward voltage drop. However in addition to the diode voltage drop, the resistor will dissipate heat with:
+
 $$
 W_I = W_D + W_R
 $$
+
 $$
 W_D = V_D*I_I
 $$
+
 $$
 W_R = V_R*I_I
 $$
+
 $$
 V_R = (V_I-V_D) * R_R
 $$

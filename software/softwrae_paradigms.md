@@ -18,7 +18,7 @@ Pure functions are akin to mathematical functions where the output of a function
 A pure function must satisfy the following:
 - There must be no observable side effects - the function must not modify an observable global state
 - A set of inputs will always produce the same consistent output(s). Future or previous calls to the function will not alter the result of the output(s). 
-- Two or more threads can simulatenously call the function at any point of the function's lifetime without any race condition, alter the result, or result in any issue or undefined behavior. If a call to this function occurs while another thread is simulatenously in the middle of this function, the behavior of the function will be so that to the perspective of each thread, the function should behave as if there are no other threads other than itself is running in the system.
+- Two or more threads can simultaneously call the function at any point of the function's lifetime without any race condition, alter the result, or result in any issue or undefined behavior. If a call to this function occurs while another thread is simultaneously in the middle of this function, the behavior of the function will be so that to the perspective of each thread, the function should behave as if there are no other threads other than itself is running in the system.
 
 #### Example
 ``` C++

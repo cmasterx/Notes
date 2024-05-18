@@ -3,3 +3,6 @@
 
 # Directory containing user tests files
 tests/
+
+# VS Code project files
+.vscode/
